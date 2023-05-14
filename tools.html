@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<meta name="author" content="SemiColonWeb">
+	<meta name="description" content="Halie Alves fitness services including posing prep, meal plans, and workout plans.">
+
+	<!-- Font Imports -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+	<!-- Core Style -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Font Icons -->
+	<link rel="stylesheet" href="css/font-icons.css">
+
+	<!-- Plugins/Components CSS -->
+	<link rel="stylesheet" href="css/components/ion.rangeslider.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Document Title
+	============================================= -->
+	<title>Halie Alves | Home</title>
+
+	<style>
+		.form-group > label.error {
+			display: block !important;
+			text-transform: none;
+		}
+
+		.form-group input.valid ~ label.error,
+		.form-group input[type="text"] ~ label.error,
+		.form-group input[type="email"] ~ label.error,
+		.form-group input[type="number"] ~ label.error,
+		.form-group select ~ label.error { display: none !important; }
+
+		.calories-wrap {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+	</style>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<a href="index.html">
+								<img class="logo-default" srcset="images/logo.png, images/logo@2x.png 2x" src="images/logo@2x.png" alt="Canvas Logo">
+								<img class="logo-dark" srcset="images/logo-dark.png, images/logo-dark@2x.png 2x" src="images/logo-dark@2x.png" alt="Canvas Logo">
+							</a>
+						</div><!-- #logo end -->
+
+						<div class="header-misc">
+
+							<!-- Top Search
+							============================================= -->
+							<!-- <div id="top-search" class="header-misc-icon">
+								<a href="#" id="top-search-trigger"><i class="uil uil-search"></i><i class="bi-x-lg"></i></a>
+							</div>#top-search end -->
+
+							<!-- Top Cart
+							============================================= -->
+							<!-- <div id="top-cart" class="header-misc-icon d-none d-sm-block">
+								<a href="#" id="top-cart-trigger"><i class="uil uil-shopping-bag"></i><span class="top-cart-number">5</span></a>
+								<div class="top-cart-content">
+									<div class="top-cart-title">
+										<h4>Shopping Cart</h4>
+									</div>
+									<div class="top-cart-items">
+										<div class="top-cart-item">
+											<div class="top-cart-item-image">
+												<a href="#"><img src="images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt"></a>
+											</div>
+											<div class="top-cart-item-desc">
+												<div class="top-cart-item-desc-title">
+													<a href="#">Blue Round-Neck Tshirt with a Button</a>
+													<span class="top-cart-item-price d-block">$19.99</span>
+												</div>
+												<div class="top-cart-item-quantity">x 2</div>
+											</div>
+										</div>
+										<div class="top-cart-item">
+											<div class="top-cart-item-image">
+												<a href="#"><img src="images/shop/small/6.jpg" alt="Light Blue Denim Dress"></a>
+											</div>
+											<div class="top-cart-item-desc">
+												<div class="top-cart-item-desc-title">
+													<a href="#">Light Blue Denim Dress</a>
+													<span class="top-cart-item-price d-block">$24.99</span>
+												</div>
+												<div class="top-cart-item-quantity">x 3</div>
+											</div>
+										</div>
+									</div>
+									<div class="top-cart-action">
+										<span class="top-checkout-price">$114.95</span>
+										<a href="#" class="button button-3d button-small m-0">View Cart</a>
+									</div>
+								</div>
+							</div>#top-cart end -->
+
+						</div>
+
+						<div class="primary-menu-trigger">
+							<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
+								<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
+							</button>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+
+							<ul class="menu-container">
+								<li class="menu-item">
+									<a class="menu-link" href="index.html"><div>Home</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="about.html"><div>About</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="#"><div>Services</div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item">
+											<a class="menu-link" href="posing.html"><div>Posing Prep</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="mealplans.html"><div>Diet/Meals Plans</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="workoutplans.html"><div>Workout Plans</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="onlinecoaching.html"><div>Online Coaching</div></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="#"><div>Tools</div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item">
+											<a class="menu-link" href="tools.html#bmi"><div>BMI Calculator</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="tools.html#bmr"><div>BMR Calculator</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="tools.html#dci"><div>Calorie Calculator</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="tools.html#cbhr"><div>Calories Burned by Heart Rate Calculator</div></a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+						<form class="top-search-form" action="search.html" method="get">
+							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
+						</form>
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<!-- Page Title
+		============================================= -->
+		<section class="page-title bg-transparent">
+			<div class="container">
+				<div class="page-title-row">
+
+					<div class="page-title-content">
+						<h1>Fitness</h1>
+					</div>
+
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href="tools.html#bmi">Body Mass Index</a></li>
+							<li class="breadcrumb-item"><a href="tools.html#bmr">Basal Metabolic Rate</a></li>
+							<li class="breadcrumb-item"><a href="tools.html#dcn">Calorie</a></li>
+                            <li class="breadcrumb-item"><a href="tools.html#cbhr">Calories by Heart Rate</a></li>
+						</ol>
+					</nav>
+
+				</div>
+			</div>
+		</section><!-- .page-title end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap">
+                <section id="bmi">
+				    <div class="container">
+                        <div class="center">
+                            <p>BMI is a measurement of a person's leanness or corpulence based on their height and weight, and is intended to quantify tissue mass.</p>
+                            </div>
+				    	<div class="form-widget">
+
+				    		<div class="form-result"></div>
+
+				    		<div class="row shadow bg-light border">
+
+				    			<div class="col-lg-4 dark" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('images/form-fitness.jpg') center center / cover; min-height: 400px;">
+				    				<h3 class="text-center mt-5">Body Mass Index</h3>
+				    				<div class="calories-wrap text-center w-100 px-2">
+				    					<span class="text-uppercase mb-0 ls-2"></span>
+				    					<h2 id="bmi-display" class="calories display-3 mb-2 heading-block border-bottom-0 fw-semibold font-body py-2"></h2>
+				    					<span class="text-uppercase h6 ls-3"></span>
+				    				</div>
+				    			</div>
+
+				    			<div class="col-lg-8 p-5">
+				    				<form class="row mb-0" id="fitness-form" action="include/form.php" method="post" enctype="multipart/form-data">
+				    					<div class="form-process">
+				    						<div class="css3-spinner">
+				    							<div class="css3-spinner-scaler"></div>
+				    						</div>
+				    					</div>
+
+                                        <div class="col-12 form-group">
+                                            <div class="row">
+                                                <div class="col-sm-2 col-form-label">
+                                                    <label for="fitness-form-height">Height:</label>
+                                                </div>
+                                                <div class="col-sm-5" id="bmiheightFtIn">
+                                                    <div class="input-group">
+                                                        <input type="number" maxlength="3" name="bmi-form-height-ft" id="bmi-form-height-ft" class="form-control required" value="" placeholder="ft">
+                                                        <input type="number" maxlength="3" name="bmi-form-height-in" id="bmi-form-height-in" class="form-control required" value="" placeholder="in">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-5" id="bmiheightCmField" style="display: none;">
+                                                    <div class="input-group">
+                                                        <input type="number" maxlength="3" name="bmi-form-height-cm" id="bmi-form-height-cm" class="form-control required" value="" placeholder="">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-5">
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="heightUnits" id="bmiheightFtInRadio" value="ftin" checked>
+                                                        <label class="form-check-label" for="bmiheightFtIn">ft in</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="heightUnits" id="bmiheightCmRadio" value="cm">
+                                                        <label class="form-check-label" for="bmiheightCm">cm</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+				    					<div class="col-12 form-group">
+				    						<div class="row">
+				    							<div class="col-sm-2 col-form-label">
+				    								<label for="bmi-form-weight">Weight:</label>
+				    							</div>
+				    							<div class="col-sm-5">
+				    								<div class="input-group">
+				    									<input type="number" max="1000" name="bmi-form-weight" id="bmi-form-weight" class="form-control required" value="" placeholder="">
+				    								</div>
+				    							</div>
+                                                <div class="col-sm-5">
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="weightUnits" id="weightLbs" value="lbs" checked>
+                                                        <label class="form-check-label" for="weightLbs">lbs</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="weightUnits" id="weightKgs" value="kgs">
+                                                        <label class="form-check-label" for="weightKgs">kgs</label>
+                                                    </div>
+                                                </div>
+
+
+
+				    						</div>
+				    					</div>
+				    					<div class="col-12 d-none">
+				    						<input type="text" id="fitness-form-botcheck" name="fitness-form-botcheck" value="">
+				    					</div>
+				    					<div class="col-12 d-flex justify-content-end align-items-center">
+				    						<button type="button" id="bmi-trigger" class="btn btn-secondary">Calculate</button>
+				    					</div>
+
+				    					<input type="hidden" name="prefix" value="fitness-form-">
+				    					<input type="hidden" name="subject" value="New Fitness Received">
+				    					<input type="hidden" id="bmi-number" name="bmi-number" value="">
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                      <th style="width:35%">BMI Range</th>
+                                                      <th style="width:65%">Category</th>
+                                                    </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                <tr>
+                                                  <td>Less than 18.5 </td>
+                                                  <td>Underweight</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>18.5 - 25</td>
+                                                  <td>Normal</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>25 - 30 </td>
+                                                  <td>Overweight</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>30+ </td>
+                                                  <td>Obese</td>
+                                                </tr>
+                                                </tbody>
+                                              </table> <!-- End table responsive -->
+                                              </div>
+				    				</form>
+				    			</div>
+
+				    		</div>
+
+				    	</div>
+
+				    </div>
+                </section>
+                <divider class="divider"></divider>
+                <section id="bmr">
+                    <div class="container">
+                        <div class="center">
+                        <p>The Basal Metabolic Rate (BMR) Calculator estimates your basal metabolic rate—the amount of energy expended while at rest in a neutrally temperate environment, and in a post-absorptive state (meaning that the digestive system is inactive, which requires about 12 hours of fasting).</p>
+                        </div>
+				    	<div class="form-widget">
+
+				    		<div class="form-result"></div>
+
+				    		<div class="row shadow bg-light border">
+
+                                <div class="col-lg-8 p-5">
+				    				<form class="row mb-0" id="fitness-form" action="include/form.php" method="post" enctype="multipart/form-data">
+				    					<div class="form-process">
+				    						<div class="css3-spinner">
+				    							<div class="css3-spinner-scaler"></div>
+				    						</div>
+				    					</div>
+                                        <div class="col-12 form-group">
+                                            <div class="row">
+                                                <div class="col-sm-2 col-form-label">
+                                                    <label for="fitness-form-sex">Gender:</label>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="btn-group d-flex" role="group">
+                                                        <input type="radio" class="btn-check required" name="bmr-form-sex" id="bmr-form-male" value="Male">
+                                                        <label for="bmr-form-male" class="btn btn-outline-dark font-body ls-0 text-transform-none">Male</label>
+    
+                                                        <input type="radio" class="btn-check required" name="bmr-form-sex" id="bmr-form-female" value="Female">
+                                                        <label for="bmr-form-female" class="btn btn-outline-dark font-body ls-0 text-transform-none">Female</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 form-group">
+                                            <div class="row">
+                                                <div class="col-sm-2 col-form-label">
+                                                    <label for="fitness-form-age">Age:</label>
+                                                </div>
+                                                <div class="col-sm-5">
+                                                    <input type="number" min="10" max="50" name="bmr-form-age" id="bmr-form-age" class="form-control required" value="" placeholder="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 form-group">
+                                            <div class="row">
+                                                <div class="col-sm-2 col-form-label">
+                                                    <label for="fitness-form-height">Height:</label>
+                                                </div>
+                                                <div class="col-sm-5" id="bmrheightFtIn">
+                                                    <div class="input-group">
+                                                        <input type="number" maxlength="3" name="bmr-form-height-ft" id="bmr-form-height-ft" class="form-control required" value="" placeholder="ft">
+                                                        <input type="number" maxlength="3" name="bmr-form-height-in" id="bmr-form-height-in" class="form-control required" value="" placeholder="in">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-5" id="bmrheightCmField" style="display: none;">
+                                                    <div class="input-group">
+                                                        <input type="number" maxlength="3" name="bmr-form-height-cm" id="bmr-form-height-cm" class="form-control required" value="" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-5">
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="heightUnits" id="bmrheightFtInRadio" value="ftin" checked>
+                                                        <label class="form-check-label" for="bmrheightFtIn">ft in</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="heightUnits" id="bmrheightCmRadio" value="cm">
+                                                        <label class="form-check-label" for="bmrheightCm">cm</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+				    					<div class="col-12 form-group">
+				    						<div class="row">
+				    							<div class="col-sm-2 col-form-label">
+				    								<label for="bmr-form-weight">Weight:</label>
+				    							</div>
+				    							<div class="col-sm-5">
+				    								<div class="input-group">
+				    									<input type="number" max="1000" name="bmr-form-weight" id="bmr-form-weight" class="form-control required" value="" placeholder="">
+				    								</div>
+				    							</div>
+                                                <div class="col-sm-5">
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="weightUnits" id="weightLbs" value="lbs" checked>
+                                                        <label class="form-check-label" for="weightLbs">lbs</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="weightUnits" id="weightKgs" value="kgs">
+                                                        <label class="form-check-label" for="weightKgs">kgs</label>
+                                                    </div>
+                                                </div>
+
+
+
+				    						</div>
+				    					</div>
+				    					<div class="col-12 d-none">
+				    						<input type="text" id="fitness-form-botcheck" name="fitness-form-botcheck" value="">
+				    					</div>
+				    					<div class="col-12 d-flex justify-content-end align-items-center">
+				    						<button type="button" id="bmr-trigger" class="btn btn-secondary">Calculate</button>
+				    					</div>
+
+				    					<input type="hidden" name="prefix" value="fitness-form-">
+				    					<input type="hidden" name="subject" value="New Fitness Received">
+				    					<input type="hidden" id="bmr-number" name="bmr-number" value="">
+				    				</form>
+				    			</div>
+
+				    			<div class="col-lg-4 dark" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('images/form-fitness.jpg') center center / cover; min-height: 400px;">
+				    				<h3 class="text-center mt-5">Basal Metabolic Rate</h3>
+				    				<div class="calories-wrap text-center w-100 px-2">
+				    					<span class="text-uppercase mb-0 ls-2"></span>
+				    					<h2 id="bmr-display" class="calories display-3 mb-2 heading-block border-bottom-0 fw-semibold font-body py-2"></h2>
+				    					<span class="text-uppercase h6 ls-3"></span>
+				    				</div>
+				    			</div>
+
+				    		</div>
+
+				    	</div>
+
+				    </div>
+                </section>
+                <divider class="divider"></divider>
+                <section id="cc">
+                    <div class="container">
+                        <div class="center">
+                        <p>Calorie Counter</p>
+                        </div>
+				    	<div class="form-widget">
+
+				    		<div class="form-result"></div>
+
+				    		<div class="row shadow bg-light border">
+
+                                <div class="col-lg-8 p-5">
+				    				<form class="row mb-0" id="fitness-form" action="include/form.php" method="post" enctype="multipart/form-data">
+				    					<div class="form-process">
+				    						<div class="css3-spinner">
+				    							<div class="css3-spinner-scaler"></div>
+				    						</div>
+				    					</div>
+                                        <div class="col-12 form-group">
+                                            <div class="row">
+                                                <div class="col-sm-2 col-form-label">
+                                                    <label for="fitness-form-sex">Gender:</label>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="btn-group d-flex" role="group">
+                                                        <input type="radio" class="btn-check required" name="bmr-form-sex" id="bmr-form-male" value="Male">
+                                                        <label for="bmr-form-male" class="btn btn-outline-dark font-body ls-0 text-transform-none">Male</label>
+    
+                                                        <input type="radio" class="btn-check required" name="bmr-form-sex" id="bmr-form-female" value="Female">
+                                                        <label for="bmr-form-female" class="btn btn-outline-dark font-body ls-0 text-transform-none">Female</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 form-group">
+                                            <div class="row">
+                                                <div class="col-sm-2 col-form-label">
+                                                    <label for="fitness-form-age">Age:</label>
+                                                </div>
+                                                <div class="col-sm-5">
+                                                    <input type="number" min="10" max="50" name="bmr-form-age" id="bmr-form-age" class="form-control required" value="" placeholder="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 form-group">
+                                            <div class="row">
+                                                <div class="col-sm-2 col-form-label">
+                                                    <label for="fitness-form-height">Height:</label>
+                                                </div>
+                                                <div class="col-sm-5" id="bmrheightFtIn">
+                                                    <div class="input-group">
+                                                        <input type="number" maxlength="3" name="bmr-form-height-ft" id="bmr-form-height-ft" class="form-control required" value="" placeholder="ft">
+                                                        <input type="number" maxlength="3" name="bmr-form-height-in" id="bmr-form-height-in" class="form-control required" value="" placeholder="in">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-5" id="bmrheightCmField" style="display: none;">
+                                                    <div class="input-group">
+                                                        <input type="number" maxlength="3" name="bmr-form-height-cm" id="bmr-form-height-cm" class="form-control required" value="" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-5">
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="heightUnits" id="bmrheightFtInRadio" value="ftin" checked>
+                                                        <label class="form-check-label" for="bmrheightFtIn">ft in</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="heightUnits" id="bmrheightCmRadio" value="cm">
+                                                        <label class="form-check-label" for="bmrheightCm">cm</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+				    					<div class="col-12 form-group">
+				    						<div class="row">
+				    							<div class="col-sm-2 col-form-label">
+				    								<label for="bmr-form-weight">Weight:</label>
+				    							</div>
+				    							<div class="col-sm-5">
+				    								<div class="input-group">
+				    									<input type="number" max="1000" name="bmr-form-weight" id="bmr-form-weight" class="form-control required" value="" placeholder="">
+				    								</div>
+				    							</div>
+                                                <div class="col-sm-5">
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="weightUnits" id="weightLbs" value="lbs" checked>
+                                                        <label class="form-check-label" for="weightLbs">lbs</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="weightUnits" id="weightKgs" value="kgs">
+                                                        <label class="form-check-label" for="weightKgs">kgs</label>
+                                                    </div>
+                                                </div>
+				    						</div>
+				    					</div>
+
+                                        <div class="col-12 form-group mt-3">
+                                            <div class="row">
+                                                <div class="col-sm-2 col-form-label">
+                                                    <label for="fitness-form-activity">Day Acivity:</label>
+                                                </div>
+                                                <div class="col-sm-10">
+                                                    <input class="input-range-slider activity-range-slider required" name="fitness-form-activity" id="fitness-form-activity">
+                                                </div>
+                                            </div>
+                                        </div>
+
+				    					<div class="col-12 d-none">
+				    						<input type="text" id="fitness-form-botcheck" name="fitness-form-botcheck" value="">
+				    					</div>
+				    					<div class="col-12 d-flex justify-content-end align-items-center">
+				    						<button type="button" id="bmr-trigger" class="btn btn-secondary">Calculate</button>
+				    					</div>
+
+				    					<input type="hidden" name="prefix" value="fitness-form-">
+				    					<input type="hidden" name="subject" value="New Fitness Received">
+				    					<input type="hidden" id="bmr-number" name="bmr-number" value="">
+				    				</form>
+				    			</div>
+
+				    			<div class="col-lg-4 dark" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('images/form-fitness.jpg') center center / cover; min-height: 400px;">
+				    				<h3 class="text-center mt-5">Basal Metabolic Rate</h3>
+				    				<div class="calories-wrap text-center w-100 px-2">
+				    					<span class="text-uppercase mb-0 ls-2"></span>
+				    					<h2 id="bmr-display" class="calories display-3 mb-2 heading-block border-bottom-0 fw-semibold font-body py-2"></h2>
+				    					<span class="text-uppercase h6 ls-3"></span>
+				    				</div>
+				    			</div>
+
+				    		</div>
+
+				    	</div>
+
+				    </div>
+                </section>
+
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+				<div class="container">
+
+					<div class="row align-items-center justify-content-between col-mb-30">
+						<div class="col-12 col-lg-auto text-center text-lg-start">
+							<img src="images/footer-logo.png" alt="Image" class="mb-4"><br>
+							Copyright &copy; 2023 All Rights Reserved Halie Alves						</div>
+
+						<div class="col-12 col-lg-auto text-center text-lg-end">
+
+							<div class="d-flex justify-content-center justify-content-lg-end mt-4">
+								<a href="#" class="social-icon si-small text-white bg-instagram">
+									<i class="fa-brands fa-instagram"></i>
+									<i class="fa-brands fa-instagram"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white bg-twitter">
+									<i class="fa-brands fa-twitter"></i>
+									<i class="fa-brands fa-twitter"></i>
+								</a>
+
+								<!-- <a href="#" class="social-icon si-small text-white bg-google">
+									<i class="fa-brands fa-google"></i>
+									<i class="fa-brands fa-google"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white bg-pinterest">
+									<i class="fa-brands fa-pinterest-p"></i>
+									<i class="fa-brands fa-pinterest-p"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white bg-vimeo">
+									<i class="fa-brands fa-vimeo-v"></i>
+									<i class="fa-brands fa-vimeo-v"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white bg-github">
+									<i class="fa-brands fa-github"></i>
+									<i class="fa-brands fa-github"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white bg-yahoo">
+									<i class="fa-brands fa-yahoo"></i>
+									<i class="fa-brands fa-yahoo"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white bg-linkedin">
+									<i class="fa-brands fa-linkedin"></i>
+									<i class="fa-brands fa-linkedin"></i>
+								</a> -->
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="uil uil-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/functions.js"></script>
+
+	<!-- Range Slider Plugin -->
+	<script src="js/components/rangeslider.min.js"></script>
+
+    <script>
+        document.getElementById('bmiheightFtInRadio').addEventListener('change', function() {
+            document.getElementById('bmiheightFtIn').style.display = 'block';
+            document.getElementById('bmiheightCmField').style.display = 'none';
+        });
+        document.getElementById('bmiheightCmRadio').addEventListener('change', function() {
+            document.getElementById('bmiheightFtIn').style.display = 'none';
+            document.getElementById('bmiheightCmField').style.display = 'block';
+        });
+
+        document.getElementById('bmrheightFtInRadio').addEventListener('change', function() {
+            document.getElementById('bmrheightFtIn').style.display = 'block';
+            document.getElementById('bmrheightCmField').style.display = 'none';
+        });
+        document.getElementById('bmrheightCmRadio').addEventListener('change', function() {
+            document.getElementById('bmrheightFtIn').style.display = 'none';
+            document.getElementById('bmrheightCmField').style.display = 'block';
+        });
+        
+        jQuery(document).ready(function($) {
+        
+        $("#bmi-trigger").click(function(){
+            let weight;
+            let height;
+        
+            // Check the units and calculate the weight and height accordingly
+            if($("#bmiheightFtInRadio").is(":checked")){
+                let feet = Number($("#bmi-form-height-ft").val());
+                let inches = Number($("#bmi-form-height-in").val());
+                height = (feet * 12 + inches) * 0.0254; // Convert height to meters
+            } else {
+                height = Number($("#bmi-form-height-cm").val()) / 100; // Convert height to meters
+            }
+        
+            if($("#weightLbs").is(":checked")) {
+                weight = Number($("#bmi-form-weight").val()) * 0.453592; // Convert weight to kg
+            } else {
+                weight = Number($("#bmi-form-weight").val()); // Weight is already in kg
+            }
+        
+            // Calculate the BMI
+            let bmi = weight / (height * height);
+        
+            // Round to one decimal place
+            bmi = Math.round(bmi * 10) / 10;
+        
+            // Display the BMI
+            $("#bmi-display").text(bmi);
+        
+            // Update the hidden field
+            $("#bmi-number").val(bmi);
+        });
+        
+            $("#bmr-trigger").click(function() {
+        var sex = $("input[name='bmr-form-sex']:checked").val();
+        var age = $("#bmr-form-age").val();
+        var weight = $("#bmr-form-weight").val();
+        var weightUnit = $("input[name='weightUnits']:checked").val();
+        var heightUnit = $("input[name='heightUnits']:checked").val();
+
+        var height;
+        if (heightUnit == 'ftin') {
+            var height_ft = parseInt($("#bmr-form-height-ft").val(), 10);
+            var height_in = parseInt($("#bmr-form-height-in").val(), 10);
+            height = (height_ft * 12) + height_in; // convert height to inches
+            height *= 2.54; // convert height from inches to cm for Mifflin-St Jeor Equation
+        } else {
+            height = parseFloat($("#bmr-form-height-cm").val()); // height in cm
+        }
+
+        if (weightUnit == 'lbs') {
+            weight = parseFloat(weight) * 0.453592; // convert weight from lbs to kg for Mifflin-St Jeor Equation
+        }
+
+        var bmr;
+        if (sex == "Male") {
+            bmr = (10 * weight) + (6.25 * height) - (5 * age) + 5;
+        } else {
+            bmr = (10 * weight) + (6.25 * height) - (5 * age) - 161;
+        }
+
+        bmr = Math.round(bmr);
+
+        $("#bmr-display").text(bmr);
+    });
+
+
+        });
+        </script>
+        
+
+</body>
+</html>
