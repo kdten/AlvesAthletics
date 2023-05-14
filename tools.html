@@ -27,7 +27,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Halie Alves | Home</title>
+	<title>Halie Alves | Tools</title>
 
 	<style>
 		.form-group > label.error {
@@ -198,8 +198,6 @@
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item"><a href="tools.html#bmi">Body Mass Index</a></li>
 							<li class="breadcrumb-item"><a href="tools.html#bmr">Basal Metabolic Rate</a></li>
-							<li class="breadcrumb-item"><a href="tools.html#dcn">Calorie</a></li>
-                            <li class="breadcrumb-item"><a href="tools.html#cbhr">Calories by Heart Rate</a></li>
 						</ol>
 					</nav>
 
@@ -455,144 +453,7 @@
 				    				</form>
 				    			</div>
 
-				    			<div class="col-lg-4 dark" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('images/form-fitness.jpg') center center / cover; min-height: 400px;">
-				    				<h3 class="text-center mt-5">Basal Metabolic Rate</h3>
-				    				<div class="calories-wrap text-center w-100 px-2">
-				    					<span class="text-uppercase mb-0 ls-2"></span>
-				    					<h2 id="bmr-display" class="calories display-3 mb-2 heading-block border-bottom-0 fw-semibold font-body py-2"></h2>
-				    					<span class="text-uppercase h6 ls-3"></span>
-				    				</div>
-				    			</div>
-
-				    		</div>
-
-				    	</div>
-
-				    </div>
-                </section>
-                <divider class="divider"></divider>
-                <section id="cc">
-                    <div class="container">
-                        <div class="center">
-                        <p>Calorie Counter</p>
-                        </div>
-				    	<div class="form-widget">
-
-				    		<div class="form-result"></div>
-
-				    		<div class="row shadow bg-light border">
-
-                                <div class="col-lg-8 p-5">
-				    				<form class="row mb-0" id="fitness-form" action="include/form.php" method="post" enctype="multipart/form-data">
-				    					<div class="form-process">
-				    						<div class="css3-spinner">
-				    							<div class="css3-spinner-scaler"></div>
-				    						</div>
-				    					</div>
-                                        <div class="col-12 form-group">
-                                            <div class="row">
-                                                <div class="col-sm-2 col-form-label">
-                                                    <label for="fitness-form-sex">Gender:</label>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <div class="btn-group d-flex" role="group">
-                                                        <input type="radio" class="btn-check required" name="bmr-form-sex" id="bmr-form-male" value="Male">
-                                                        <label for="bmr-form-male" class="btn btn-outline-dark font-body ls-0 text-transform-none">Male</label>
-    
-                                                        <input type="radio" class="btn-check required" name="bmr-form-sex" id="bmr-form-female" value="Female">
-                                                        <label for="bmr-form-female" class="btn btn-outline-dark font-body ls-0 text-transform-none">Female</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 form-group">
-                                            <div class="row">
-                                                <div class="col-sm-2 col-form-label">
-                                                    <label for="fitness-form-age">Age:</label>
-                                                </div>
-                                                <div class="col-sm-5">
-                                                    <input type="number" min="10" max="50" name="bmr-form-age" id="bmr-form-age" class="form-control required" value="" placeholder="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 form-group">
-                                            <div class="row">
-                                                <div class="col-sm-2 col-form-label">
-                                                    <label for="fitness-form-height">Height:</label>
-                                                </div>
-                                                <div class="col-sm-5" id="bmrheightFtIn">
-                                                    <div class="input-group">
-                                                        <input type="number" maxlength="3" name="bmr-form-height-ft" id="bmr-form-height-ft" class="form-control required" value="" placeholder="ft">
-                                                        <input type="number" maxlength="3" name="bmr-form-height-in" id="bmr-form-height-in" class="form-control required" value="" placeholder="in">
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-5" id="bmrheightCmField" style="display: none;">
-                                                    <div class="input-group">
-                                                        <input type="number" maxlength="3" name="bmr-form-height-cm" id="bmr-form-height-cm" class="form-control required" value="" placeholder="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-5">
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="heightUnits" id="bmrheightFtInRadio" value="ftin" checked>
-                                                        <label class="form-check-label" for="bmrheightFtIn">ft in</label>
-                                                    </div>
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="heightUnits" id="bmrheightCmRadio" value="cm">
-                                                        <label class="form-check-label" for="bmrheightCm">cm</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-				    					<div class="col-12 form-group">
-				    						<div class="row">
-				    							<div class="col-sm-2 col-form-label">
-				    								<label for="bmr-form-weight">Weight:</label>
-				    							</div>
-				    							<div class="col-sm-5">
-				    								<div class="input-group">
-				    									<input type="number" max="1000" name="bmr-form-weight" id="bmr-form-weight" class="form-control required" value="" placeholder="">
-				    								</div>
-				    							</div>
-                                                <div class="col-sm-5">
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="weightUnits" id="weightLbs" value="lbs" checked>
-                                                        <label class="form-check-label" for="weightLbs">lbs</label>
-                                                    </div>
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="weightUnits" id="weightKgs" value="kgs">
-                                                        <label class="form-check-label" for="weightKgs">kgs</label>
-                                                    </div>
-                                                </div>
-				    						</div>
-				    					</div>
-
-                                        <div class="col-12 form-group mt-3">
-                                            <div class="row">
-                                                <div class="col-sm-2 col-form-label">
-                                                    <label for="fitness-form-activity">Day Acivity:</label>
-                                                </div>
-                                                <div class="col-sm-10">
-                                                    <input class="input-range-slider activity-range-slider required" name="fitness-form-activity" id="fitness-form-activity">
-                                                </div>
-                                            </div>
-                                        </div>
-
-				    					<div class="col-12 d-none">
-				    						<input type="text" id="fitness-form-botcheck" name="fitness-form-botcheck" value="">
-				    					</div>
-				    					<div class="col-12 d-flex justify-content-end align-items-center">
-				    						<button type="button" id="bmr-trigger" class="btn btn-secondary">Calculate</button>
-				    					</div>
-
-				    					<input type="hidden" name="prefix" value="fitness-form-">
-				    					<input type="hidden" name="subject" value="New Fitness Received">
-				    					<input type="hidden" id="bmr-number" name="bmr-number" value="">
-				    				</form>
-				    			</div>
-
-				    			<div class="col-lg-4 dark" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('images/form-fitness.jpg') center center / cover; min-height: 400px;">
+				    			<div class="col-lg-4 dark" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('images/calc-fitness.jpg') center center / cover; min-height: 400px;">
 				    				<h3 class="text-center mt-5">Basal Metabolic Rate</h3>
 				    				<div class="calories-wrap text-center w-100 px-2">
 				    					<span class="text-uppercase mb-0 ls-2"></span>
