@@ -1,15 +1,15 @@
 
 Hope you enjoy your new logo, here are the people that
 made your beautiful logo happen :)
-font name: Aganè 65 (Bold) sign
-font link: https://www.graphicpear.com/agane-free-font/
-font author: Danilo De Marco
-font author site: http://www.danilodemarco.com/
+font name: norwester
+font link: http://jamiewilson.io/norwester/
+font author: Jamie Wilson
+font author site: http://jamiewilson.io/
 
 
 
-fontColor: {"hex":"#D1E755"}
-bgColor: {"hex":"transparent"}
+fontColor: {"hex":"#1862da"}
+bgColor: {"hex":"#00"}
 
 
       
