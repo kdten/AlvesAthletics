@@ -34203,3 +34203,8 @@ body.dark {
 .about-me-text {
   color: var(--cnvs-themecolor)
 }
+
+.flex-item {
+  display: flex;
+  align-items: center;
+}
